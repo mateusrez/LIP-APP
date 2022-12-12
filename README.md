@@ -1,4 +1,4 @@
-# App: App Principal
+# LIP: App Principal
 ### URL do projeto do App Principal, desenvolvido com o APP Inventor do MIT, publicado na Gallery do App Inventor.
 
 
