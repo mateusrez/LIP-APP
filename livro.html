@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ReBuild YOUR ROUTINE</title>
+
+    <link rel="stylesheet" href="assets/styles/livro.css">
+    <script type="text/javascript" id="rendered-js" src="assets/scripts/rendered.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Rubik&display=swap"
+        rel="stylesheet">
+
+    <script
+        src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js">
+        </script>
+    <script src="https://kit.fontawesome.com/4458f38c76.js" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/944eb371a4.js'></script>
+</head>
+
+<body translate="no">
+    <nav data-toggled="false" data-transitionable="false">
+        <div id="nav-logo-section" class="nav-section">
+            <a href="index.html" target="_self"
+                style="font-family:'Morning Routine Regular';font-weight:normal;font-size:24px;">ReBuild YOUR
+                ROUTINE.</a>
+        </div>
+        <div id="nav-mobile-section">
+            <div id="nav-link-section" class="nav-section">
+                <a href="livro.html"><b>LIVRO</b></a>
+                <a href="tarefas.html"><b>TAREFAS</b></a>
+            </div>
+            <div id="nav-social-section" class="nav-section">
+                <a href="lista.html">
+                    <i class="fa-regular fa-calendar"></i>
+                </a>
+                <a href="https://github.com/mateusrez/ReBUILD">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="login.html">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+            </div>
+
+        </div>
+        <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+            <span>MENU</span>
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </nav>
+
+    <main>
+        <article data-index="0" data-status="active">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Cada um de nós tem uma perspectiva pessoal do tempo, mas a maioria das pessoas nem se dá a conta de
+                    que possui sentimentos a respeito dele.
+                    Muitas não têm noção de como seu tempo é gasto."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Descubra como você usa seu tempo</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="1" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Uma das mais comuns ( e mais nocivas) faces do comportamento
+                    obsessivo - que pode de fato interferir na eficiência e na produtividade - é o perfeccionismo. A
+                    ilusão de que podem fazer tudo da maneira perfeita impede que algumas pessoas</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Use o bom senso</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="2" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Ao invés de prejudicar a criatividade e diminuir o prazer, a administração correta do tempo pode, de
+                    fato, criar oportunidades para melhor aproveitá-los."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Inclua a diversão em sUa programação</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="3" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"E sempre possível ser uma ilha de calma em um oceano de confusões, se você assumir o controle - pelo
+                    menos - de suas próprias responsabilidades."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Assuma o controle de seu espaço</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="4" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Infelizmente, a maior parte dos livros e métodos de administração do tempo presume que um único
+                    estilo pode servir para todos. A experiência ensina que essa suposição esta muito longe da verdade."
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Adapte as estratégias as suas necessidades</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="5" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"A beleza do sistema ABC é que ele ajuda a eliminar as emoções que você
+                    possa ter desenvolvido com a relação a cada tarefa."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Estabeleça prioridades usando o sistema ABC</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="6" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Tempo é vida. E irreversível e insubstituível. Desperdiçar seu tempo é desperdiçar sua vida, mas
+                    dominar seu tempo é dominar sua vida e obter dela o máximo resultado."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Organize suas prioridades usando fichas e etiquetas</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="7" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"A abordagem por inventario presume que você melhore seu desempenho revendo como conduziu o trabalho
+                    do dia e aplicando no dia seguinte o que aprendeu com seu próprio comportamento."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Fique atento as prioridades e faça as mudanças necessárias</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="8" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Considerar o tempo em termos financeiros frequentemente adiciona uma precisão mensurável à
+                    determinação de suas prioridades."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Tenha sempre em mente a relação custo-benefício</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="9" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"O Principio de Pareto, isto é, a regra 80/20, serve para lembrá-lo de focalizar 80% de seu tempo e
+                    energia nos 20% de tarefas realmente importantes. Não basta trabalhar com inteligência - é preciso
+                    trabalhar com inteligência nas tarefas certas."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Defina suas prioridades com o principio do 80/20</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="10" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"A procrastinação é o grande vilão da administração do tempo. Entra furtivamente em sua vida e depois
+                    sai correndo com um de seus bens mais preciosos - seu próprio tempo."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Faça as coisas dentro do prazo</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="11" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Encontrar alguns minutos a cada semana para rever seus objetivos pode trazer um resultado
+                    maravilhoso, pois lhe permitirá manter o foco necessário para usar seu tempo de maneira produtiva."
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Estabeleça objetivos e encontre tempo para eles.</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="12" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Um dos problemas que mais atrapalham o horário da maneira das pessoas é a tendência a subestimas o
+                    tempo que vai durar uma reunião.
+                    Calcule que qualquer encontro vá demorar 50% a mais do que você acha necessário."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Agrupe as tarefas a partir de padrões</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="13" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"A maioria das tarefas que custam mais para você fazer do que para outra pessoa é um desperdício de
+                    tempo.
+                    Seu valor consiste nas habilidades especiais que apenas você é capaz de
+                    aplicar em seu trabalho."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Aprenda a delegar com eficiência</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="14" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Você não tem de fazer tudo o que todo mundo quer que você faca.
+                    E tampouco tem de realizar tudo da maneira que os outros querem.
+                    Se houver um jeito melhor de produzir os mesmos resultados, aprenda a dizer "não" para a forma de
+                    execução tradicional."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Saiba dizer não</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="15" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Até que ponto você sabe se antecipar corretamente?
+                    Você transmite a impressão de que esta sempre a mercê do inesperado e fica estressado quando as
+                    coisas não saem do jeito que queria?"</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Antecipe e planeje</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="16" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"A socialização - em proporções razoáveis - aumenta a satisfação com o emprego, levanta o moral e, em
+                    consequência, eleva a produtividade.
+                    Em quantidades moderadas, é um tônico que pode melhorar a qualidade do trabalho."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Socialize-se de maneira adequada</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="17" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Embora você possa funcionar muito bem em meio ao que parece uma bagunça sem fim, os outros podem
+                    concluir que você é desorganizado, que tem mais trabalho do que pode dar conta ou, simplesmente, que
+                    é um irresponsável"</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Saiba onde estão suas coisas</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="18" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Metade de tudo o que você lê ou escuta é esquecida dentro de um minuto."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Ponha tudo por escrito</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="19" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Seria muito bom que seu escritório continuasse sendo o único lugar em que você trabalha. Mas, sendo
+                    hoje em dia, 'escritório' se transformou em um conceito portátil"</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Aproveite o tempo de deslocamentos e viagens</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="20" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"É triste quando começamos a pensar que a leitura é improdutiva. Todavia, muitos executivos a
+                    classificam como um dos fatores que mais os fazem perder tempo."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Lela menos, porém melhor</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="21" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Se em algum momento você começar a pensar que pode estar falando demais a respeito de algum assunto,
+                    provavelmente esta."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Aprenda a encerrar uma conversa</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="22" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"Dispomos de muitos instrumentos para administrar melhor nosso tempo. Alguns são produtos da
+                    tecnologia. Outros, não. Entretanto, as ferramentas de gerenciamento somente funcionam se forem
+                    utilizadas de forma adequada."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Empregue as novas ferramentas com critério</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="23" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>"A utilização das ferramentas apropriadas para a administração do tempo - e o emprego correto delas -
+                    é apenas uma das peças do quebra-cabeça."</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Ajuste as ferramentas às suas necessidades</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </article>
+    </main>
+
+    <script>
+
+        /* -- MENU MOBILE -- */
+
+        const nav = document.querySelector("nav");
+
+        const handleNavToggle = () => {
+            nav.dataset.transitionable = "true";
+
+            nav.dataset.toggled = nav.dataset.toggled === "true" ? "false" : "true";
+        };
+
+        window.matchMedia("(max-width: 800px)").onchange = e => {
+            nav.dataset.transitionable = "false";
+
+            nav.dataset.toggled = "false";
+        };
+        //# sourceURL=pen.js
+    </script>
+</body>
+
+</html>
