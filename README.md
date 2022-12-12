@@ -3,9 +3,9 @@
 
 
 
-https://github.com/mateusrez/ReBUILD
-### [Acesse o site](https://mateusrez.github.io/ReBUILD/ "ReBUILD")
-### [Acesse o repositório](https://github.com/mateusrez/ReBUILD/ "Open ReBUILD")
+https://github.com/mateusrez/LIP-APP
+### [Acesse o site](https://mateusrez.github.io/LIP-APP/ "LIP-APP")
+### [Acesse o repositório](https://github.com/mateusrez/LIP-APP "Open")
 
 
 
@@ -16,8 +16,4 @@ https://github.com/mateusrez
 
 
 ## Professores responsáveis
-
-* Ilo Amy Saldanha Rivero
-* João Carlos Oliveira Caetano
-* Rommel Vieira Carneiro
 * Carlos Alberto Marques Pietrobon
