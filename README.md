@@ -9,10 +9,6 @@ Assistente interativo de visita ao Museu da PUC Minas
 
  
 
- 
-
- 
-
 ## Gallery do App Inventor:
 https://gallery.appinventor.mit.edu/Links to an external site.
 
