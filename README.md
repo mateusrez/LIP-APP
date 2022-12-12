@@ -11,19 +11,6 @@ https://github.com/mateusrez/ReBUILD
 
 
 ## Alunos integrantes da equipe
-
-* Socrates
-https://github.com/socrates1022
-
-* Lucas Erick Andrade da Silva
-https://github.com/sptzk
-
-* Victor Wogel
-https://github.com/vWogel
-
-* Lucas Ferreira Santos
-https://github.com/Lucas140797
-
 * Mateus Gomes Rezende
 https://github.com/mateusrez
 
