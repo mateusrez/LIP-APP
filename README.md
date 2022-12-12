@@ -1,28 +1,32 @@
-# Sprint: ReBuild YOUR ROUTINE
-### Repositório do GitHub, contendo todas as atualizações e versões do projeto de Procrastinação E Organização do Dia a Dia.
+# App: App Principal
+### URL do projeto do App Principal, desenvolvido com o APP Inventor do MIT, publicado na Gallery do App Inventor.
 
 
+### Requisitos:
+Assistente de utilização de micro conteúdos apresentados no Livro Como Administrar o seu Tempo
+Utilização do componente WebViewer
+Assistente interativo de visita ao Museu da PUC Minas
 
-https://github.com/mateusrez/ReBUILD
-### [Acesse o site](https://mateusrez.github.io/ReBUILD/ "ReBUILD")
-### [Acesse o repositório](https://github.com/mateusrez/ReBUILD/ "Open ReBUILD")
+ 
+
+ 
+
+ 
+
+## Gallery do App Inventor:
+https://gallery.appinventor.mit.edu/Links to an external site.
+
+## Projeto publicado na Gallery:
+https://gallery.appinventor.mit.edu/?galleryid=f5a2a49f-a8bb-4dbd-8a8f-dabe5dcd076c
+
+
+### [Acesse o site](https://mateusrez.github.io/LIP-APP/ "ReBUILD")
+### [Acesse o repositório](https://github.com/mateusrez/LIP-APP/ "Open")
 
 
 
 
 ## Alunos integrantes da equipe
-
-* Socrates
-https://github.com/socrates1022
-
-* Lucas Erick Andrade da Silva
-https://github.com/sptzk
-
-* Victor Wogel
-https://github.com/vWogel
-
-* Lucas Ferreira Santos
-https://github.com/Lucas140797
 
 * Mateus Gomes Rezende
 https://github.com/mateusrez
@@ -30,7 +34,4 @@ https://github.com/mateusrez
 
 ## Professores responsáveis
 
-* Ilo Amy Saldanha Rivero
-* João Carlos Oliveira Caetano
-* Rommel Vieira Carneiro
 * Carlos Alberto Marques Pietrobon
